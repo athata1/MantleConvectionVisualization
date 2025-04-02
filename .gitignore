@@ -1,0 +1,24 @@
+# Ignore virtual environment directory
+venv/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore logs and environment files
+*.log
+.env
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+
+mantle_data/*
+mantle_transformed_data/*
+output_images/*
+
+*.vts
